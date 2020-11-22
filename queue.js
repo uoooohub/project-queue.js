@@ -2,6 +2,7 @@ class Queue{
 
 	constructor(item){
 		this.data=[];
+		this.local={};
 		this.limit=1;
 		this.option={
 			"status":'waiting',
